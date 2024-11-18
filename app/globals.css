@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper{
+       width: 1210px;
+
+}
+
+
+.swiper-image {
+  cursor: pointer;
+  position: relative;
+
+  border-radius: 10px;
+  overflow: hidden;
+ 
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect on each card */
+.swiper-image:hover {
+  transform: scale(1.2);
+}

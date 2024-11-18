@@ -1,0 +1,129 @@
+.hero-container {
+  background: url('../../public/background.png') no-repeat center center/cover;
+  background-color: black;
+  color: white;
+  /* width: 1120px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.hero-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.hero-nav .logo{
+width: 70.5781px; position: relative; left: 1px; top: 1px; cursor: move; height: 43.2188px; transition: none;
+}
+
+.logo {
+  position: relative; left: -24px; top: 2px;
+  font-size: 1.5rem;
+    margin-left: 220px;
+  font-weight: bold;
+  position: relative;
+  left: -116px;
+  top: -2px;
+  transition: none;
+  cursor: move;
+}
+
+
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 680px;
+ 
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  width: 430.625px; transform: translate(-136px, 0px);
+  align-items: center;
+  gap: 15px;
+}
+
+.sign-in-btn {
+  background: white;
+  color: black;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-content h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+
+}
+.hero-content {
+  text-align: center;
+  margin-top: auto;
+  padding-bottom: 50px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 523px;
+  position: relative;
+  left: 533px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: white;
+}
+.search-bar button {
+color: black;
+font-weight: bolder;
+font-size:23px;
+width: 19px;
+    transform: translate(-112px, 0px);
+    height: 46px;
+
+  /* background-color: white; */
+}
+.search-bar input {
+  border: none;
+  outline: none;
+  color: black;
+  /* width: 100%; */
+  font-weight: bold;
+  padding: 10px;
+    width: 255px;
+      position: relative;
+      left: -90px;
+      cursor: pointer;
+
+
+}
+.search-bar input::placeholder  {
+
+/* height: 30px; width: 254.5px; transform: translate(14px, 5px); left: -106px; top: 3px; transition: none; cursor: move;  max-width: 600px; */
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+
+}
+
+

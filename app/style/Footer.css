@@ -1,0 +1,154 @@
+.footer {
+  background-color: #ffff;
+  padding: 20px 40px;
+width: 1210px;
+height: 86vh;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 1233px; transform: translate(142px, 0px);
+}
+
+.download-app h4,
+.links h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.input-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-wrapper input {
+  padding: 8px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.input-wrapper button {
+  padding: 8px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.store-buttons{
+/* width: 1233px; */
+  /* transform: translate(142px, 0px); */
+
+}
+.store-buttons img {
+  /* width: 120px; */
+  /* margin-right: 1px; */
+  cursor: pointer;
+  display: inline;
+  
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(104, 101, 101);
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.settings {
+  display: flex; /* Make the settings section a flex container */
+  align-items: center; 
+  /* Space between each item */
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  /* border-top: 1px solid #ccc; */
+  margin-top: 233px;
+  /* width: 100%; */
+  margin-left: 13px;
+  position: relative;
+  left: 143px;
+  color: gray;
+
+}
+.copyright{
+
+    font-size: -2.5rem !important;
+    margin-left: -145px;
+    color: #585757;
+    /* font-weight: bold; */
+    position: relative;
+    left: -116px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    transition: none;
+    cursor: move;}
+
+.footer-bottom img{
+/* position: relative; left: 130px; top: -3px; transition: none; cursor: move; width: 62px; height: 41.8438px; transform: translate(0px, -3px); */
+}
+
+.footer-bottom .settings span,
+.footer-bottom a {
+  margin-right: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 60px 8px 23px;
+}
+
+.input-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  width: 263px;
+}
+
+/*  */
+.icon {
+font-size: 29px;
+color: #000;
+margin-left: 99px;
+width: 41.1865px; 
+transform: translate(41px, 0px);
+
+}
+
+.bolddown{
+  font-weight: bold;
+}
+
+.message{
+  padding-top: 12px;
+font-family:
+  "Helvetica Neue",
+  Arial,
+  Helvetica;
+  margin-top: 12pxy;
+  font-size: 16px;
+  color: gray;
+}
