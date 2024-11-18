@@ -73,7 +73,7 @@ const Footer = () => {
                 <img src="/images/seatgeekfooter.png" width={60} height={30} alt="" />
                 <div className="copyright" > &copy; 2024 SeatGeek. All rights reserved.</div> 
                 <div className="settings">
-                    <img src="/images/usaflag.png"   height = "20" width = "20"  alt="" /> <span>USD</span>
+                    <img src="/images/flag.png"   height = "20" width = "20"  alt="" /> <span>USD</span>
                     <img src="/images/privacy.png   " height="60" width="40" alt="" /> 
  <span>Your privacy choices</span>
                     <a href="#">Terms</a>

@@ -17,7 +17,7 @@ const Header = () => {
                     <li>Cities</li>
                 </ul>
                 <div className="nav-right">
-                    <span> <img src="images/usaflag.png" alt="" width={'44px'} height={'20px'} /></span> <span>  USD</span>
+                    <span> <img src="images/flag.png" alt="" width={'44px'} height={'20px'} /></span> <span>  USD</span>
                     <a href="#sell">Sell</a>
                     <a href="#support">Support</a>
                     <button className="sign-in-btn">Sign In</button>
