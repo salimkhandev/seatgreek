@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 // Import your custom CSS
 import '../style/BrowseEvents.css';
 
-const TrendingEventsSlider = () => {
+const BrowseEvents = () => {
     const [currentSlide, setCurrentSlide] = useState(1);
    
 
@@ -43,13 +43,13 @@ const TrendingEventsSlider = () => {
                 
                 <h2 className="title">Categories</h2>
                 <div className="nav-container">
-                    <button className="nav-button custom-prev">
+                    <button className="nav-button custom-prevs">
                         &lt;
                     </button>
                     <span className="nav-text">
                         {currentSlide} of {events.length}
                     </span>
-                    <button className="nav-button custom-next">
+                    <button className="nav-button custom-nexts">
                         &gt;
                     </button>
                 </div>
@@ -58,8 +58,8 @@ const TrendingEventsSlider = () => {
                     spaceBetween={20}
                     slidesPerView={4}
                     navigation={{
-                        nextEl: '.custom-next',
-                        prevEl: '.custom-prev',
+                        nextEl: '.custom-nexts',
+                        prevEl: '.custom-prevs',
                     }}
                     onSlideChange={(swiper) => setCurrentSlide(swiper.realIndex + 1)}
                     pagination={{ clickable: true }}
@@ -92,4 +92,4 @@ const TrendingEventsSlider = () => {
     );
 };
 
-export default TrendingEventsSlider;
+export default BrowseEvents;

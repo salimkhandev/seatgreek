@@ -66,7 +66,7 @@ const TrendingEventsSlider = () => {
                         {theCurrentSlide} of {events.length}
                     </span>
                     <button className="nav-button-trending custom-next">
-                        &gt;
+                        &gt; 
                     </button>
                 </div>
                 <Swiper
