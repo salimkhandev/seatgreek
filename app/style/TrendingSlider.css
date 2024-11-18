@@ -32,8 +32,8 @@
   display: flex;
   justify-content:end;
   align-items:end;
+width: 166px; transform: translate(-3px, -6px); height: 39px;
 
-  width: 163px;
   background-color: #424446;
   /* float: right; */
   margin-bottom: 1rem;

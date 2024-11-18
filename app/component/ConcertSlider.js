@@ -7,6 +7,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+import { IoIosArrowForward } from "react-icons/io";
+
+import { IoIosArrowBack } from "react-icons/io";
 import '../style/ConcertSlider.css';
 
 const TrendingEventsSlider = () => {
@@ -29,13 +32,13 @@ const TrendingEventsSlider = () => {
             <div className="slider-wrapper">
                 <div className="slider-nav">
                     <button className="slider-nav-button prev-button">
-                        &lt;
+                        <IoIosArrowBack />
                     </button>
                     <span className="slider-nav-text">
                         {currentSlide} of {totalSlides}
                     </span>
                     <button className="slider-nav-button next-button">
-                        &gt;
+                        <IoIosArrowForward />
                     </button>
                 </div>
 

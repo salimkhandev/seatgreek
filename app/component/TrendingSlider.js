@@ -5,6 +5,10 @@ import { Navigation, Pagination } from 'swiper/modules';
 import { useState } from 'react';
 
 // Import Swiper styles
+import { IoIosArrowForward } from "react-icons/io";
+
+import { IoIosArrowBack } from "react-icons/io";
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -60,13 +64,14 @@ const TrendingEventsSlider = () => {
                 <h2 className="title">Trending Events</h2>
                 <div className="nav-container-trending">
                     <button className="nav-button-trending custom-prev">
-                        &lt;
+                        {/* &lt; */}
+                        <IoIosArrowBack />
                     </button>
                     <span className="nav-text-trending">
                         {theCurrentSlide} of {events.length}
                     </span>
                     <button className="nav-button-trending custom-next">
-                        &gt; 
+                        <IoIosArrowForward />
                     </button>
                 </div>
                 <Swiper

@@ -3,7 +3,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { useState } from 'react';
+import { IoIosArrowForward } from "react-icons/io";
 
+import { IoIosArrowBack } from "react-icons/io";
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -44,13 +46,14 @@ const BrowseEvents = () => {
                 <h2 className="title">Categories</h2>
                 <div className="nav-container">
                     <button className="nav-button custom-prevs">
-                        &lt;
+                        <IoIosArrowBack />
                     </button>
                     <span className="nav-text">
                         {currentSlide} of {events.length}
                     </span>
                     <button className="nav-button custom-nexts">
-                        &gt;
+                        <IoIosArrowForward />
+                   
                     </button>
                 </div>
                 <Swiper

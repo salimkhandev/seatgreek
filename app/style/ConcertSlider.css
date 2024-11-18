@@ -39,7 +39,7 @@
 border: 2px solid gray;
 }
 .nav-container {
-
+width: 165px; transform: translate(-2px, -8px); height: 41px;
 }
 
 .nav-button {
