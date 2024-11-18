@@ -14,7 +14,6 @@ import '../style/TrendingSlider.css';
 
 const TrendingEventsSlider = () => {
     const [theCurrentSlide, settheCurrentSlide] = useState(1);
-    const totalSlides = 4; // Adjust based on the number of slides
 
     const events = [
         {
@@ -64,7 +63,7 @@ const TrendingEventsSlider = () => {
                         &lt;
                     </button>
                     <span className="nav-text-trending">
-                        {theCurrentSlide} of {totalSlides}
+                        {theCurrentSlide} of {events.length}
                     </span>
                     <button className="nav-button-trending custom-next">
                         &gt;

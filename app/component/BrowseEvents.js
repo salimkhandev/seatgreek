@@ -14,7 +14,7 @@ import '../style/BrowseEvents.css';
 
 const TrendingEventsSlider = () => {
     const [currentSlide, setCurrentSlide] = useState(1);
-    const totalSlides = 4; // Adjust based on the number of slides
+   
 
     const events = [
         { image: 'images/guitargirl.png', title: 'Concerts' },
@@ -47,7 +47,7 @@ const TrendingEventsSlider = () => {
                         &lt;
                     </button>
                     <span className="nav-text">
-                        {currentSlide} of {totalSlides}
+                        {currentSlide} of {events.length}
                     </span>
                     <button className="nav-button custom-next">
                         &gt;
