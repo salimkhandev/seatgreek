@@ -17,7 +17,7 @@ const TrendingEventsSlider = () => {
     const totalSlides = 4; // Adjust based on the number of slides
 
     const events = [
-        { image: 'images/con.webp', title: 'Concerts' },
+        { image: 'images/guitargirl.png', title: 'Concerts' },
         { image: '/images/fotbal.webp', title: 'NFL Footbal' },
         { image: '/images/basebal.webp', title: 'MLB Baseball' },
         { image: '/images/baseket.webp', title: 'NBA Basketball' },
