@@ -1,5 +1,5 @@
-import Hero from "./component/Header";
 import ResponsiveMessage from "./component/ResponsiveMessage";
+import Hero from "./component/Header";
 import BrowserEvents from "./component/BrowseEvents";
 
 import ConcertSlider from "./component/ConcertSlider";
