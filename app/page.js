@@ -8,9 +8,13 @@ import Footer from "./component/Footer";
 
 export default function Home() {
   return (
-    <div>
-    
+    <>
+        <div>
     <ResponsiveMessage/>
+        
+      </div>
+    
+      <div className='desktop-component'>
       <Hero/>
       <BrowserEvents />
 
@@ -18,5 +22,6 @@ export default function Home() {
         <Footer/>
     
     </div>
+    </>
   );
 }

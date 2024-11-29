@@ -3,6 +3,32 @@
 @tailwind utilities;
 
 /* styles/globals.css */
+/* Example of using media queries in your CSS (e.g., global.css or component.module.css) */
+.mobile-component {
+  display: block;
+}
+
+.desktop-component {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .message-box {
+    display: block; /* Show on mobile */
+  }
+  .desktop-component {
+    display: none;  /* Hide on mobile */
+  }
+}
+
+@media (min-width: 1024px) {
+  .message-box {
+    display: none; /* Hide on desktop */
+  }
+  .desktop-component {
+    display: block;  /* Show on desktop */
+  }
+}
 
 .message-box {
   background-color: #ffcc00;
