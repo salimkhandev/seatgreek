@@ -112,5 +112,5 @@ const TrendingEventsSlider = () => {
         </div>
     );
 };
-
+// 
 export default TrendingEventsSlider;
