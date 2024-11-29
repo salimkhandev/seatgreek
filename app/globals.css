@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles/globals.css */
+
+.message-box {
+  background-color: #ffcc00;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  color: #333;
+  margin: 20px auto;
+}
+
+.message-box h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.message-box p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.message-box a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.message-box a:hover {
+  text-decoration: underline;
+}
 .swiper{
        width: 1210px;
 

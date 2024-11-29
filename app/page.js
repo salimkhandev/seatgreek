@@ -1,4 +1,5 @@
 import Hero from "./component/Header";
+import ResponsiveMessage from "./component/ResponsiveMessage";
 import BrowserEvents from "./component/BrowseEvents";
 
 import ConcertSlider from "./component/ConcertSlider";
@@ -9,7 +10,7 @@ export default function Home() {
   return (
     <div>
     
-
+    <ResponsiveMessage/>
       <Hero/>
       <BrowserEvents />
 
